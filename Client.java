@@ -20,7 +20,7 @@ public class Client {
 
 		// Get number of simulations
 		System.out.println("How many users would you like to simulate?");
-		System.out.println("Options: 1, 5, 10, 20, 25");
+		System.out.println("Options: 1, 5, 10, 15, 20, 25");
 		int simulations = getSimulations(reader);
 
 		System.out.println("Command: " + command + " Simulations: " + simulations + "\n");
